@@ -33,11 +33,11 @@
     #leftbox {
         float:left;
         width:20%;
-        height: 500px;
+        height: 100vb;
     }
     #rightbox{
         float:right;
         width:80%;
-        height: 500px;
+        height: 100vb;
     }
 </style>

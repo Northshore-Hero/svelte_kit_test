@@ -3,9 +3,11 @@
   import Download from "$lib/Download.svelte";
 </script>
 
-<h1>Welcome to Tauri!</h1>
+<div class="pt-4">
+    <h1>Welcome to Tauri!</h1>
+</div>
 
-<div class="row">
+<div class="pt-4 row">
   <a href="https://vitejs.dev" target="_blank">
     <img src="/vite.svg" class="logo vite" alt="Vite Logo" />
   </a>
@@ -17,13 +19,15 @@
   </a>
 </div>
 
-<p>Click on the Tauri, Vite, and Svelte logos to learn more.</p>
+<div class ="pt-4 row">
+  <p>Click on the Tauri, Vite, and Svelte logos to learn more.</p>
+</div>
 
-<div class="row">
+<div class="pt-4 row">
   <Greet />
 </div>
 
-<div class="row">
+<div class="pt-4 row">
   <Download />
 </div>
 

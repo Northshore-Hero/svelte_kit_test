@@ -22,5 +22,5 @@
             Download
         </button>
     </div>
-    <p>{downloadMsg}</p>
+    <p class="pt-4 row">{downloadMsg}</p>
 </div>

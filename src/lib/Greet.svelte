@@ -18,5 +18,5 @@
       Greet
     </button>
   </div>
-  <p>{greetMsg}</p>
+  <p class="pt-4 row">{greetMsg}</p>
 </div>

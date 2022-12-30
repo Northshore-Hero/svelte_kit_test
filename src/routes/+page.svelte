@@ -1,10 +1,11 @@
 <script>
   import Greet from "$lib/Greet.svelte";
   import Download from "$lib/Download.svelte";
+  import {  Heading, P, Button } from 'flowbite-svelte'
 </script>
 
 <div class="pt-4">
-    <h1>Welcome to Tauri!</h1>
+  <Heading tag="h1" class="mb-4" customSize="text-4xl font-extrabold  md:text-5xl lg:text-2xl">Tauri and Svelt Development</Heading>
 </div>
 
 <div class="pt-4 row">
